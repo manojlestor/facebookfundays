@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta lang="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	#tag-1,
+	#tag-2
+	{
+		margin: 0;
+		display: inline-block;
+	}
+	#tag-1
+	{
+		font-size: 1.25em;
+	}
+	#tag-2
+	{
+		font-size: 1.5em;
+	}
+	#dress,
+	#your,
+	#pet
+	{
+		margin: 10px;
+		font-family:Custom;
+		
+	}
+	#your
+	{
+		font-size: 2.3em;
+	}
+	#dress
+	{
+		font-size: 3.5em;
+		color: #105f8a;
+	}
+	#your
+	{
+		color: #736c66;
+	}
+	#pet
+	{
+		font-size: 3.5em;
+		color: #f59421;
+	}
+
+
+	@font-face
+	{
+		font-family: "Custom";
+		src:url("Graun.ttf");
+	}
+	.hash
+	{
+		text-align: center;
+		margin: 0 auto;
+	}
+	#tag-2
+	{
+		margin-left: 2px;
+		color: red;
+	}
+		.content-1
+		{
+			display: grid;
+			grid-template-columns: repeat(2,35%);
+			justify-content: center;
+		}
+		.content-1>div
+		{
+			
+			height: 400px;
+			
+		}
+		.content-2
+		{
+			margin: 0 auto;
+			width: 70%;
+			text-align: center;
+		}
+		#dress
+		{
+			margin-top: 118px;
+		}
+		.pic
+		{
+			display: grid;
+			justify-content: right;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<div class="content-1">
+		<div class="pic">
+			<img src="dress.png" style="width: 200px;">
+		</div>
+		<div class="heads">
+			<h1 id="dress">DRESS UP</h1>
+			<h2 id="your">YOUR</h2>
+			<h1 id="pet">PET DAY</h1>
+		</div>
+	</div>
+	<div class="content-2">
+		<p style="font-size: 1.25em"><b> Dress your pet in a comfortable and safe costume or cute clothing and take photos to share on facebook. You can bring happiness to strangers through your post of your beloved pet in dress.</b></p>
+	</div>
+	<div class="hash"><h4 id="tag-1">Tag</h4><h3 id="tag-2">#dressupyourpetday</h3></div>
+</div>
+</body>
+</html>

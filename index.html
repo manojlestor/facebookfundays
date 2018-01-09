@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var today=new Date();
+	var daz=today.getDate();
+	console.log(daz);
+	var mnt=today.getMonth()+1;
+	console.log(mnt);
+	switch(mnt)
+	{
+		case 1:
+		if (daz==12) 
+		{
+		document.location="Manoj_page_04.html";
+		}
+		else if(daz==14)
+		{
+		document.location="Manoj_page_02.html";
+		}
+		break;
+		case 10:
+		document.location="Manoj_page_05.html";
+		break;
+		case 4:
+		document.location="Manoj_page_03.html";
+		break;
+		case 2:
+		document.location="Manoj_page_01.html";
+		break;
+	}
+</script>
+</body>
+</html>
